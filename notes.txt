@@ -53,6 +53,72 @@ them as components inthe Spring application context.
    application context that the test will run against
 
 
-   
+spring dev tools basics 
+
+1. automatic application restart when code changes 
+automatic browser refresh when browser-destined resources (such as templates, javascripts stylesheetschangees ´)
+
+2. automatidc disalbe of template caches 
+
+3. build in h2 console of the h2 database is in use 
+
+
+
+how spring works 
+1.when application starts spring boot autoconfiguratin 
+detects those librareis and automitcally 
+1. confguries the beans in the spring application contect to 
+enable spring mvc 
+2. congiguries the embedded tomcast server application context to enable spring mbc 
+congiguries tymeleaf view resolver for rndering spring mvc views with 
+thymeleaf templates 
+
+autoconfiguratin does all the work leaving you to focus. 
+
+
+
+the actuator proviedes runtime insight in to the inner owrking 
+of an application including metrics thread dump information 
+application health and evnironment properties 
+avaliable to the application.
+
+flexible specification of environment properties 
+additonal testing support on top  of the testing assistance 
+found in the core framework. 
+
+spring boot offers an alternative programming model based on 
+groovy scripts that's called teh spring boot cli you can write entire applications 
+as a collections of groovy scripts and run then from the comand line 
+
+spring framework comes with basic data persistnece support 
+spring data provides the ability to define your application's data 
+repositories as simple java interfaces using a naming convention when 
+defining methods to drive how data is stored and retrieved. 
+
+spring data is capable of working with several different kinds of 
+databases including relational jpa, document mongo, graph neo4j, you 
+spring data to help create arepositories for the applicaion 
+
+spring integration and spring batch 
+
+appiicatoin will need to integrate with other application 
+to address spring bactch provide the implementation nof these patterns form spring 
+based applications 
+spring address real time integration where data is process as its made avaliable 
+in contract spring batch addreeses batched integration where data is 
+allowed to collect for a time some trigger signals that its time 
+for the batch of dtat to be processed youll explore both spring batch and 
+spring integration. 
+.
+
+development 
+1 domain class that deinfes the properteis of pizza ingredent 
+
+2. a spring mvc controller classs that fetrches ingredient informatkon 
+and passes it along to the view 
+
+3. a view templarte that renders a list of ingredients in 
+the users browser 
+
 
 
